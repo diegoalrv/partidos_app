@@ -43,3 +43,19 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Consider files with credentials, api keys, json files, etc.
+/android/key.properties
+/android/key.jks
+/android/key.keystore
+/android/key.keystore.properties
+/android/key.keystore.properties.example
+
+# add json files with configs
+/android/app/src/main/res/raw/config.json
+./firebase.json
+
+
+# Consider files with sensitive data
+./web/index.html
+*firebase_options*

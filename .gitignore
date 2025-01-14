@@ -53,9 +53,9 @@ app.*.map.json
 
 # add json files with configs
 /android/app/src/main/res/raw/config.json
-./firebase.json
-
+*firebase.json
 
 # Consider files with sensitive data
-./web/index.html
+web/index.html
 *firebase_options*
+*google-services.json
